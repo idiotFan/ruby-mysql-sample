@@ -10,10 +10,12 @@ module Sinatra
 end
 
 get '/' do
-  storage = Storage.new
-  storage.populate()
-  score = storage.score()
-  "Hello world, %d!" % score
+  # storage = Storage.new
+  # storage.populate()
+  # score = storage.score()
+  # "Hello world, %d!" % score
+
+	"Hello world!"
 end
 
 class Storage
